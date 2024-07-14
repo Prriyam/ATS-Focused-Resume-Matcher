@@ -3,6 +3,7 @@ faiss-cpu==1.7.4
 openai==0.27.8
 streamlit==1.23.1
 python-dotenv==1.0.0
-pypdf2==1.26.0 
-scikit-learn==1.2.2 
-scipy==1.7.3
+PyPDF2==1.26.0   # Corrected package name for PyPDF2
+scikit-learn  # Downgraded to version 1.0.2 to resolve compatibility issues
+numpy    # Downgraded to a version compatible with Python 3.9-3.10
+scipy     # Downgraded to version 1.7.0 to resolve compatibility issues
