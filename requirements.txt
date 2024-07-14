@@ -4,3 +4,7 @@ openai==0.27.8
 streamlit==1.23.1
 python-dotenv==1.0.0
 pypdf==3.9.1
+scikit-learn==1.2.2
+numpy==1.21.5
+scipy==1.7.3
+
